@@ -160,6 +160,16 @@
 
 .text_area{
     background-color: var(--boolzapp-lightest);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text{
+    background-color: var(--boolzapp-lighter);
+    width: 70%;
+    height: 80%;
+
 }
 
 @media screen and (max-width:1920px){
