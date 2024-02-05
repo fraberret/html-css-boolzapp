@@ -28,6 +28,16 @@
     height: 70px;
 }
 
+.debug .search_bar_container{
+    height: 35px;
+     
+    
+
+}
+.debug .search_bar{
+    height: 15px;
+}
+
 .container{
     width: 100%;
 }
@@ -90,6 +100,18 @@
 
 .notifications{
     background-color: var(--boolzapp-accent1);
+}
+
+.search_bar_container{
+    background-color: var(--boolzapp-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar{
+    width: 95%;
+    background-color: var(--boolzapp-lighter);
 }
 
 @media screen and (max-width:1920px){
