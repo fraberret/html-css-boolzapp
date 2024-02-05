@@ -30,10 +30,13 @@
 
 .debug .search_bar_container{
     height: 35px;
-     
-    
 
 }
+
+.debug .contact{
+    height: 70px;
+}
+
 .debug .search_bar{
     height: 15px;
 }
@@ -56,6 +59,9 @@
 }
 .col-8{
     width: calc((100%/12)*8);
+}
+.col-12{
+    width: calc((100%/12)*12);
 }
 
 .page{
@@ -112,6 +118,16 @@
 .search_bar{
     width: 95%;
     background-color: var(--boolzapp-lighter);
+}
+
+.contact{
+    width: 100%;
+    background-color: var(--boolzapp-lighter);
+    
+    
+}
+.chats{
+    overflow: hidden;
 }
 
 @media screen and (max-width:1920px){
