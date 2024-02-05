@@ -1,3 +1,18 @@
-body{
-    background-color: red;
+/* color palette */
+:root{
+    --boolzapp-lighter:#ffffff;
+    --boolzapp-lightest:#eaeaea;
+    --boolzapp-light:#d8dbd5;
+    --boolzapp-dark:#b1b1b1;
+    --boolzapp-accent1:#8edafc;
+    --boolzapp-accent2:#d5f9ba;
+    --boolzapp-primary:#009688;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
