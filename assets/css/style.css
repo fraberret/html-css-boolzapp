@@ -71,8 +71,13 @@
     align-items: center;
     padding: 0 1rem;
 
+    & .profile_icon{
+        justify-content: flex-end;
+        display: flex;
+        
+    }
 
-    & .icon > ul{
+    & ul{
         list-style: none;
         display: flex;
         gap: 0.5rem;
@@ -97,11 +102,13 @@
 
 
 @media screen and (max-width:540px){
-    .contacts{
+    .left-side{
         display: none;
     }
     .col-sm-12{
         width: calc((100%/12)*12);
     }
-    
+    .icon-chat{
+        display: none;
+    }
 }
