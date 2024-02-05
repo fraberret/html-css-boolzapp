@@ -24,6 +24,10 @@
     height: 50px;
 }
 
+.debug .notifications{
+    height: 70px;
+}
+
 .container{
     width: 100%;
 }
@@ -84,6 +88,10 @@
     }
 }
 
+.notifications{
+    background-color: var(--boolzapp-accent1);
+}
+
 @media screen and (max-width:1920px){
     
 }
@@ -98,6 +106,10 @@
     .icon{
         display: none;
     }
+
+    .notifications{
+        display: none;
+    }
 }
 
 
@@ -109,6 +121,9 @@
         width: calc((100%/12)*12);
     }
     .icon-chat{
+        display: none;
+    }
+    .notifications{
         display: none;
     }
 }
