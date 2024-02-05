@@ -24,13 +24,21 @@
     height: 50px;
 }
 
+.container{
+    width: 100%;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .col-4{
     width: calc((100%/12)*4);
+}
+.col-6{
+    width: calc((100%/12)*6);
 }
 .col-8{
     width: calc((100%/12)*8);
@@ -50,6 +58,10 @@
     margin: auto;
     background-color: rgb(206, 191, 191);
     height: 90%;
+}
+
+.contacts{
+    border-right: 1px solid;
 }
 
 .profile{
@@ -88,4 +100,8 @@
     .contacts{
         display: none;
     }
+    .col-sm-12{
+        width: calc((100%/12)*12);
+    }
+    
 }
