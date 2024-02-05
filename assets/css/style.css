@@ -16,3 +16,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.page{
+    max-width: 1920px;
+    height: 100vh;
+    margin: auto;
+    background-color: var(--boolzapp-light);
+}
