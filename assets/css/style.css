@@ -21,6 +21,15 @@
 .page{
     max-width: 1920px;
     height: 100vh;
-    margin: auto;
+    margin: 0 auto;
     background-color: var(--boolzapp-light);
+    display: flex;
+    align-items: center;
+}
+
+.app{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(206, 191, 191);
+    height: 90%;
 }
