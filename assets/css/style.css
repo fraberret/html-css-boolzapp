@@ -53,6 +53,12 @@
     width: 100%;
 }
 
+.container-sm{
+    width: 80%;
+    padding: 50px 0;
+    margin: auto;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +77,12 @@
 .col-12{
     width: calc((100%/12)*12);
 }
-
+.green{
+    background-color: var(--boolzapp-accent2);
+}
+.white{
+    background-color: var(--boolzapp-lighter);
+}
 .page{
     max-width: 1920px;
     height: 100vh;
@@ -155,7 +166,8 @@
 
 .messages{
     background-image: url(../img/mine.jpg);
-    height: calc(100% - 120px)
+    height: calc(100% - 120px);
+    
 }
 
 .text_area{
@@ -170,6 +182,12 @@
     width: 70%;
     height: 80%;
 
+}
+
+.message{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem
 }
 
 @media screen and (max-width:1920px){
