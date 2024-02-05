@@ -17,6 +17,24 @@
     box-sizing: border-box;
 }
 
+.debug .contacts{
+    height: 100%;
+}
+.debug .profile{
+    height: 50px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    width: calc((100%/12)*4);
+}
+.col-8{
+    width: calc((100%/12)*8);
+}
 
 .page{
     max-width: 1920px;
@@ -32,6 +50,21 @@
     margin: auto;
     background-color: rgb(206, 191, 191);
     height: 90%;
+}
+
+.profile{
+    background-color: var(--boolzapp-lightest);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+
+    & .icon > ul{
+        list-style: none;
+        display: flex;
+        gap: 0.5rem;
+    }
 }
 
 @media screen and (max-width:1920px){
