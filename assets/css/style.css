@@ -237,6 +237,17 @@ body {
 
 }
 
+.profile-img{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    
+}
+
+.name{
+    padding-left: 1rem;
+}
+
 .center{
     display: flex;
     flex-direction: column;
@@ -280,10 +291,12 @@ body {
         margin: 0;
     }
 
-    
+    .left-side{
+        height: 100;
+    }
 
     .chats_list {
-        height: calc(100% - 50px);
+        height: calc(100% - 66px);
     }
 
     .icon {
