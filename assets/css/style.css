@@ -208,9 +208,10 @@ body {
 
 .chats_list {
 
-    height: calc(100% - 155px);
-    overflow-y: scroll;
-    background-color: red;
+    height: calc(100% - 191.89px);
+    overflow-y: auto;
+    
+    max-height: 100%;
 
 
 }
@@ -218,8 +219,31 @@ body {
 .chat {
     background-color: #fff;
     display: flex;
-    padding: 0.5rem 1rem;
+    padding:  1rem;
+    color: var(--boolzapp-light);
+    border: 0.1px solid var(--boolzapp-lightest);
+
+    & .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 50px
+    }
+
+    & .time{
+    margin-top: 8px;
+    
 }
+
+    & .profile_name{
+        color: black;
+        font-size: 18px;
+    }
+
+}
+
+
 
 .messages {
     background-image: url(../img/mine.jpg);
@@ -256,6 +280,10 @@ body {
         margin: 0;
     }
 
+    .chat{
+        padding:0
+    }
+
     .chats_list {
         height: calc(100% - 50px);
     }
@@ -263,6 +291,14 @@ body {
     .icon {
         display: none;
     }
+
+    .center{
+        display: block;
+    }
+    .time{
+    display: none;
+}
+
 
     .search_bar_container {
         display: none;
