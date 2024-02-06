@@ -258,7 +258,7 @@ body {
 
 .messages {
     background-image: url(../img/mine.jpg);
-    height: calc(100% - 120px);
+    height: calc(100% - 148.5px);
 
 }
 
@@ -266,13 +266,21 @@ body {
     background-color: var(--boolzapp-lightest);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 1rem;
+
+    & .emoticons{
+        font-size: 25px;
+        color: var(--boolzapp-dark);
+    }
 }
 
 .text {
     background-color: var(--boolzapp-lighter);
-    width: 70%;
-    height: 80%;
+    width: 85%;
+    padding: 1rem;
+    border-radius: 10px;
+
 
 }
 
