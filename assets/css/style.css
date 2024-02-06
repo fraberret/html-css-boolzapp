@@ -223,13 +223,7 @@ body {
     color: var(--boolzapp-light);
     border: 0.1px solid var(--boolzapp-lightest);
 
-    & .center{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 20px;
-        padding-right: 50px
-    }
+    & 
 
     & .time{
     margin-top: 8px;
@@ -243,7 +237,13 @@ body {
 
 }
 
-
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 50px
+}
 
 .messages {
     background-image: url(../img/mine.jpg);
@@ -280,9 +280,7 @@ body {
         margin: 0;
     }
 
-    .chat{
-        padding:0
-    }
+    
 
     .chats_list {
         height: calc(100% - 50px);
@@ -293,7 +291,8 @@ body {
     }
 
     .center{
-        display: block;
+        display: none;
+        
     }
     .time{
     display: none;
