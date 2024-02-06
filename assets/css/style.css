@@ -2,7 +2,7 @@
 :root {
     --boolzapp-lighter: #ffffff;
     --boolzapp-lightest: #eaeaea;
-    --boolzapp-light: #d8dbd5;
+    --boolzapp-light: #b7b9bb;
     --boolzapp-dark: #b1b1b1;
     --boolzapp-accent1: #8edafc;
     --boolzapp-accent2: #d5f9ba;
@@ -177,7 +177,7 @@ body {
 }
 
 .search_bar_container {
-    background-color: var(--boolzapp-light);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +186,18 @@ body {
 .search_bar {
     width: 95%;
     background-color: var(--boolzapp-lighter);
+    padding: 5px 8px;
+    margin: 10px;
+    color: var(--boolzapp-light);
+    box-shadow:100px black;
+    
+    
 }
+
+.search_bar>span {
+    padding-left: 1rem;
+}
+
 
 .contact {
     width: 100%;
@@ -206,7 +217,8 @@ body {
 
 .chat {
     background-color: #fff;
-    border: 1px solid;
+    display: flex;
+    padding: 0.5rem 1rem;
 }
 
 .messages {
