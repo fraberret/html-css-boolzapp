@@ -43,6 +43,10 @@
     width: calc((100%/12)*4);
 }
 
+.col-4-sp {
+    width: calc((100%/12)*4);
+}
+
 .col-6 {
     width: calc((100%/12)*6);
 }
