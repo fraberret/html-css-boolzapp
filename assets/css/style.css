@@ -7,10 +7,10 @@
     --boolzapp-accent1: #8edafc;
     --boolzapp-accent2: #d5f9ba;
     --boolzapp-primary: #009688;
-
 }
 
 
+/* General rules */
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +19,31 @@
 
 }
 
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgb(0, 181, 147) 0%, rgb(0, 181, 147) 120px, lightgray 120px, lightgray 100%);
+
+}
+.app {
+    height: 95vh;
+    margin: 1rem auto 2rem;
+    max-width: 1200px;
+    display: flex;
+}
+
+.right_side {
+    max-height: 100%;
+
+}
+
+.left-side {
+
+    height: 100%;
+    border-right: 1px solid var(--boolzapp-light);
+}
+
+/* #region Utilities */
 .full-height {
     height: 100%;
 }
@@ -72,40 +97,10 @@ img {
     width: 50px;
     border-radius: 50%;
 }
+/* #endregion Utilities */
 
-body {
-    height: 100vh;
-    overflow: hidden;
-    background-image: linear-gradient(to bottom, rgb(0, 181, 147) 0%, rgb(0, 181, 147) 120px, lightgray 120px, lightgray 100%);
 
-}
-
-.app {
-    height: 95vh;
-    margin: 1rem auto 2rem;
-    max-width: 1200px;
-    display: flex;
-}
-
-.right_side {
-    max-height: 100%;
-
-}
-
-.left-side {
-
-    height: 100%;
-    border-right: 1px solid var(--boolzapp-light);
-}
-
-.contacts {
-    border-right: 1px solid;
-}
-
-body {
-    max-height: 100vh;
-}
-
+/* #region profile section */
 .profile {
     background-color: var(--boolzapp-lightest);
     display: flex;
@@ -128,7 +123,10 @@ body {
         font-size: 20px;
     }
 }
+/* #endregion profile section */
 
+
+/* #region notifications section */
 .notifications {
     background-color: var(--boolzapp-accent1);
     padding: 1rem;
@@ -152,7 +150,10 @@ body {
     }
 
 }
+/* #endregion notifications section */
 
+
+/* #region search bar section */
 .search_bar_container {
     
     display: flex;
@@ -175,15 +176,10 @@ body {
 .search_bar>span {
     padding-left: 1rem;
 }
+/* #endregion search bar section */
 
 
-.contact {
-    width: 100%;
-    background-color: var(--boolzapp-lighter);
-
-
-}
-
+/* #region chat list section */
 .chats_list {
 
     height: calc(100% - 193.89px);
@@ -246,6 +242,10 @@ body {
 
 }
 
+/* #endregion chat list section */
+
+
+/* #region right side section */
 .text_area {
     background-color: var(--boolzapp-lightest);
     display: flex;
@@ -280,9 +280,10 @@ body {
     font-size: 14px;
     color: rgb(108, 108, 108);
 }
+/* #endregion right side section */
 
-@media screen and (max-width:1920px) {}
 
+/* #region Media Queries */
 
 @media screen and (max-width:991px) {
     .app {
@@ -359,3 +360,4 @@ body {
         height: 100vh;
     }
 }
+/* #endregion Media Queries */
