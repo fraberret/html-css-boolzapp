@@ -182,7 +182,7 @@ body {
 
 .chats_list {
 
-    height: calc(100% - 191.89px);
+    height: calc(100% - 193.89px);
     overflow-y: auto;
     
     max-height: 100%;
@@ -237,7 +237,8 @@ body {
 
 .messages {
     background-image: url(../img/mine.jpg);
-    height: calc(100% - 148.5px);
+    height: calc(100% - 149.5px);
+    overflow-y: auto;
 
 }
 
@@ -267,7 +268,8 @@ body {
 .message {
     padding: 1rem;
     margin-bottom: 1rem;
-    border-radius: 1rem
+    border-radius: 1rem;
+    
 }
 
 .last_access{
