@@ -10,7 +10,7 @@
 }
 
 
-/* General rules */
+/* #region General rules */
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +42,8 @@ body {
     height: 100%;
     border-right: 1px solid var(--boolzapp-light);
 }
+/* #endregion General rules */
+
 
 /* #region Utilities */
 .full-height {
@@ -273,6 +275,7 @@ img {
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
+    display: flex;
     
 }
 
